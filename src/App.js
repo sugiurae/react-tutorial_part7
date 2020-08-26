@@ -12,7 +12,7 @@ class App extends Component {
 	render() {
 		return (
 			<div >
-				⑥redux編
+				⑦基礎確認編
                 <div className="main">
                     <div className="container">
                         <Top />

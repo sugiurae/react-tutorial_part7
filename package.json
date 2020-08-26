@@ -29,5 +29,13 @@
     "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sugiurae/react-tutorial_part7.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sugiurae/react-tutorial_part7/issues"
+  },
+  "homepage": "https://github.com/sugiurae/react-tutorial_part7#readme",
   "description": ""
 }
