@@ -9,8 +9,11 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        // ex)
-        formID: (value) => dispatch(actions.formID(value)),
+        didMnt: (id,name,address) => dispatch(actions.didMnt(id,name,address)),
+
+        updateFormId: (value) => dispatch(actions.updateFormId(value)),
+        updateFormName: (value) => dispatch(actions.updateFormName(value)),
+        updateFormAddress: (value) => dispatch(actions.updateFormAddress(value))
 
     }
 }
