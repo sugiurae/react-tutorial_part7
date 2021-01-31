@@ -7,5 +7,6 @@ export default function createStore() {
             conditions
         })
     );
+    // console.log(store);
     return store;
 }

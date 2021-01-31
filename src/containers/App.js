@@ -9,9 +9,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
     return {
-        // ex)
-        formID: (value) => dispatch(actions.formID(value)),
+        selectLang: (value) => dispatch(actions.selectLang(value)),
 
+        didMnt: (dataList) => dispatch(actions.didMnt(dataList))
     }
 }
 export default connect(mapStateToProps, mapDispatchToProps)(App)
